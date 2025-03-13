@@ -147,7 +147,7 @@ def get_config():
     parser = argparse.ArgumentParser(description='RL')
     parser.add_argument("--run_name", type=str, default="CQL-SAC-FlexibleRoom_cnn_lstm_goal_conditioned_Mask_bbox", help="Run name, default: CQL-SAC")
     parser.add_argument("--env", type=str, default="UnrealTrack-Old_Factory_01-ContinuousColorMask-v0", help="Gym environment name, default: Pendulum-v0")
-    parser.add_argument("--buffer_path", type=str,default='E:\FlexibleRoom_Continuous_dataset\multi_discrete_goal_condition_tracktrain_Mask_v0')
+    parser.add_argument("--buffer_path", type=str,default=None)
     parser.add_argument("--episodes", type=int, default=5000, help="Number of episodes, default: 200")
     parser.add_argument("--buffer_size", type=int, default=100_000, help="Maximal training dataset size, default: 100_000")
     parser.add_argument("--seed", type=int, default=1, help="Seed, default: 1")
@@ -166,7 +166,7 @@ def get_config():
     parser.add_argument("--lstm_out", type=int, default=64, help="")
     parser.add_argument("--lstm_layer", type=int, default=1, help="")
     parser.add_argument("--input_type", type=str, default='fusion_cnn_lstm', help="")
-    parser.add_argument("--load_agent_model", type=str, default='/home/wuk/Instruction_Aware_Tracking/trained_models/server-H20/CQL-SAC-goal_conditioned_DEVA_robot_view_IOUEdgedDisCQL-SAC5000.pth', help="")
+    parser.add_argument("--load_agent_model", type=str, default='CQL-SAC-goal_conditioned_DEVA_robot_view_IOUEdgedDisCQL-SAC5000.pth', help="")
 
     parser.add_argument("--mode", type=str, default='eval', help="")
 
