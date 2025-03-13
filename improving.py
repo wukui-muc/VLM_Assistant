@@ -63,7 +63,7 @@ class ExperienceManager:
         client = OpenAI(
         base_url='https://xiaoai.plus/v1',
         # sk-xxx替换为自己的key
-        api_key='sk-xrBOgNqa1PEGnzcd8hscQA0JkZmeqIs11KOGgkubVOtpqnxi'
+        api_key=''
         )
 
         # 假设设置2条高相似度高评分的经验和1条欠探索的新经验
@@ -271,7 +271,7 @@ class ExperienceManager:
         client = OpenAI(
         base_url='https://xiaoai.plus/v1',
         # sk-xxx替换为自己的key
-        api_key='sk-xrBOgNqa1PEGnzcd8hscQA0JkZmeqIs11KOGgkubVOtpqnxi'
+        api_key=''
         )
         prompt_system = f"""
                # Task
@@ -342,7 +342,7 @@ class ExperienceManager:
         client = OpenAI(
         base_url='https://xiaoai.plus/v1',
         # sk-xxx替换为自己的key
-        api_key='sk-xrBOgNqa1PEGnzcd8hscQA0JkZmeqIs11KOGgkubVOtpqnxi'
+        api_key=''
         )
 
         prompt = f"""
