@@ -23,5 +23,5 @@ follow the [official guide](https://github.com/hkchengrex/Tracking-Anything-with
 ## Run example
 before running, make sure each dependency could be imported correctly. 
 ```
-python python VLMFailureRecovery_reflection_deva_goal_conditioned_bbox.py --env UnrealTrack-Old_Factory_01-ContinuousColor-v0
+python VLMFailureRecovery_reflection_deva_goal_conditioned_bbox.py --env UnrealTrack-Old_Factory_01-ContinuousColor-v0
 ```
