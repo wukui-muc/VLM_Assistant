@@ -1,5 +1,5 @@
-# VLM_Assistant
-VLM assistant to help visual tracking agent recovery from failure. 
+# VLM Can Be a Good Assistant: Enhancing Embodied Visual Tracking with Self-Improving Visual-Language Models 
+## IROS 2025
 
 ## Dependencies
  - Unrealzoo
@@ -25,3 +25,17 @@ before running, make sure each dependency could be imported correctly.
 ```
 python VLMFailureRecovery_reflection_deva_goal_conditioned_bbox.py --env UnrealTrack-Old_Factory_01-ContinuousColor-v0
 ```
+## Citation
+
+If you use this paper in your research, please consider citing:
+
+```bibtex
+@misc{wu2025vlmgoodassistantenhancing,
+      title={VLM Can Be a Good Assistant: Enhancing Embodied Visual Tracking with Self-Improving Vision-Language Models}, 
+      author={Kui Wu and Shuhang Xu and Hao Chen and Churan Wang and Zhoujun Li and Yizhou Wang and Fangwei Zhong},
+      year={2025},
+      eprint={2505.20718},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.20718}, 
+}
